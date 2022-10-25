@@ -42,6 +42,7 @@ export const Imagem= styled.img`
 width:15%;
 border-radius:1vw ;
 margin: 2% 2% 0 0;
+transition:ease-in-out  .2s;
  :hover {
     transform: scale(1.1);
  }
