@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/Project_ONU/static/js/main.a5e3eb7a.js",
+    "main.js": "/Project_ONU/static/js/main.44bd7c78.js",
     "static/media/Lapena.jpg": "/Project_ONU/static/media/Lapena.a4b7b54645ad3d500e9f.jpg",
     "static/media/moradora.jpg": "/Project_ONU/static/media/moradora.c39e3d8de70aba160592.jpg",
     "static/media/enchente.jpg": "/Project_ONU/static/media/enchente.8a8d8fd22b3297c5e1ae.jpg",
@@ -27,9 +27,9 @@
     "static/media/trabalho.webp": "/Project_ONU/static/media/trabalho.7e980edd08e6602479dd.webp",
     "static/media/redução.webp": "/Project_ONU/static/media/redução.fdb53c1c684fcd4ec8cd.webp",
     "index.html": "/Project_ONU/index.html",
-    "main.a5e3eb7a.js.map": "/Project_ONU/static/js/main.a5e3eb7a.js.map"
+    "main.44bd7c78.js.map": "/Project_ONU/static/js/main.44bd7c78.js.map"
   },
   "entrypoints": [
-    "static/js/main.a5e3eb7a.js"
+    "static/js/main.44bd7c78.js"
   ]
 }
