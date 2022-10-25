@@ -1,23 +1,35 @@
 {
   "files": {
-    "main.js": "/Project_ONU/static/js/main.17c50af4.js",
+    "main.js": "/Project_ONU/static/js/main.a5e3eb7a.js",
     "static/media/Lapena.jpg": "/Project_ONU/static/media/Lapena.a4b7b54645ad3d500e9f.jpg",
     "static/media/moradora.jpg": "/Project_ONU/static/media/moradora.c39e3d8de70aba160592.jpg",
     "static/media/enchente.jpg": "/Project_ONU/static/media/enchente.8a8d8fd22b3297c5e1ae.jpg",
     "static/media/card9.jpg": "/Project_ONU/static/media/card9.761a7513ea328e0c9554.jpg",
+    "static/media/energia.jpg": "/Project_ONU/static/media/energia.28ab3e6d7754db10869d.jpg",
+    "static/media/saude.png": "/Project_ONU/static/media/saude.80a3da1c553072f9b2f7.png",
     "static/media/card10.jpeg": "/Project_ONU/static/media/card10.4009a48d96c2bea0ee8c.jpeg",
     "static/media/jd.jpg": "/Project_ONU/static/media/jd.dafde9dcc998e51f6fb0.jpg",
+    "static/media/agua2.jpg": "/Project_ONU/static/media/agua2.908b4bbda068e6443404.jpg",
     "static/media/card4.png": "/Project_ONU/static/media/card4.d1012ed4e056282040d7.png",
+    "static/media/igualdade.png": "/Project_ONU/static/media/igualdade.040529c7cae3b31bb600.png",
+    "static/media/educação.webp": "/Project_ONU/static/media/educação.38a2592cd7c9190973c0.webp",
+    "static/media/industria.webp": "/Project_ONU/static/media/industria.fa25912708f56a6bd80d.webp",
+    "static/media/fomezero2.webp": "/Project_ONU/static/media/fomezero2.f30224f7fe7e633f6bda.webp",
+    "static/media/favela1.jpeg": "/Project_ONU/static/media/favela1.315fa4468a5c4998f1ff.jpeg",
+    "static/media/erradicação.webp": "/Project_ONU/static/media/erradicação.a78766ddf04cd0930097.webp",
     "static/media/card3.jpg": "/Project_ONU/static/media/card3.90fb5c9940200fbefb8a.jpg",
     "static/media/Card1.png": "/Project_ONU/static/media/Card1.eecae3401b14b0556420.png",
     "static/media/uol1.png": "/Project_ONU/static/media/uol1.f1cf4379225fe14dbda2.png",
+    "static/media/favela.jpeg": "/Project_ONU/static/media/favela.b9cfd1761b670547ff7d.jpeg",
     "static/media/images.jpeg": "/Project_ONU/static/media/images.4619e2cea3c30cf46c30.jpeg",
     "static/media/Card2.webp": "/Project_ONU/static/media/Card2.6a8fc64c2af5c0325bf4.webp",
     "static/media/card6.png": "/Project_ONU/static/media/card6.a18099e163c64d9200fb.png",
+    "static/media/trabalho.webp": "/Project_ONU/static/media/trabalho.7e980edd08e6602479dd.webp",
+    "static/media/redução.webp": "/Project_ONU/static/media/redução.fdb53c1c684fcd4ec8cd.webp",
     "index.html": "/Project_ONU/index.html",
-    "main.17c50af4.js.map": "/Project_ONU/static/js/main.17c50af4.js.map"
+    "main.a5e3eb7a.js.map": "/Project_ONU/static/js/main.a5e3eb7a.js.map"
   },
   "entrypoints": [
-    "static/js/main.17c50af4.js"
+    "static/js/main.a5e3eb7a.js"
   ]
 }
