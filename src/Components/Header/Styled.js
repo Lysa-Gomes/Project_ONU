@@ -47,6 +47,7 @@ export const Logo = styled.a`
 `
 export const ImgL = styled.img`
     width: 80%;
+    cursor: pointer;
 `
 export const BoxTitle = styled.div`
 width:70% ;
@@ -73,24 +74,49 @@ background-color: whitesmoke;
 export const ContNav = styled.div`
 width: 100%;
 height: 100vh;
-background-color: ;
 
 `
 export const Navegation = styled.nav`
 width: 100%;
-padding:20% 0 5% 55%;
+padding:20% 0 5% 25%;
 font-size:1.5vw;
+text-align: justify;
 `
 export const List = styled.ul`
 list-style: none;
 color:white;
+li{
+    width: 100%;
+    cursor: pointer;
+    padding-left: 3%;
+    margin-bottom: 1%;
+    position: relative;
+    z-index: 2;
+    :hover{
+        color: darkgray;
+    }
+    ::before {
+    content: "";
+    width: 0%;
+    height: 5vh;
+    position: absolute;
+    top:0; left:0;
+    background-color: whitesmoke;
+   
+    }
+:hover::before {
+    position:absolute;
+    width: 90%;
+    transition: 0.4s linear;
+    z-index: -1;
+  }
+}
 
 `
 
 export const Underline2 = styled.div`
-width: 75%;
+width: 95%;
 height: 0.8vh;
-margin-left:22%;
 background-color: whitesmoke;
 `
 
@@ -99,6 +125,19 @@ export const NukaSli = styled(NukaSlid)`
     background: whitesmoke;
     position: relative;
     margin-top:50%;
+`
+export const BtnMove = styled.button`
+    width:3vw;
+    height: 7vh;
+    background: rgba(0,0,0, 0.5);
+    border: none;
+    padding: 3% 0 4% 0;
+    font-size: 1.3vw;
+    font-weight: bolder;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 `
 export const ImgLap = styled.img`
     width:100%;

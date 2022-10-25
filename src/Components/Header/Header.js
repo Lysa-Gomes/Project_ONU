@@ -16,6 +16,8 @@ const settings = {
     slidesToShow:2,
     cellAlign:"left",
     adaptiveHeight:true,
+    nextButtonText: 'seila',
+    
 }
 
 export default function Main() {
@@ -31,13 +33,13 @@ export default function Main() {
                             target="_blank">
                             <S.ImgL src={Fc} alt="facebook logo"/>
                         </S.Logo>
-                        <S.Logo href="" target="_blank">
+                        <S.Logo href="https://www.uol.com.br/ecoa/ultimas-noticias/2021/06/25/mulheres-se-unem-e-formam-rede-de-guardias-em-comunidade-periferica-de-sp.htm" target="_blank">
                             <S.ImgL src={Uol} alt="Uol logo"/>
                         </S.Logo>
                     </S.BoxLogo>
                 </S.BoxW>
                 <S.BoxTitle>
-                    <S.Title>Jardim Lapena</S.Title>
+                    <S.Title>JARDIM LAPENA</S.Title>
                     <S.Underline1></S.Underline1>
                 </S.BoxTitle>
                 <S.Cont>
@@ -45,13 +47,24 @@ export default function Main() {
                         <S.Navegation>
                             <S.List>
                                 <li>HOME</li>
-                                <li>CARDS DA ODS</li>
+                                <li>CARDS ODS</li>
                                 <li>SOBRE</li>
                             </S.List>
                         </S.Navegation>
                         <S.Underline2></S.Underline2>
                         <div>
-                            <S.NukaSli {...settings}>
+                            <S.NukaSli {...settings}
+                             renderCenterLeftControls={({ previousDisabled, previousSlide }) => (
+                                <S.BtnMove onClick={previousSlide} disabled={previousDisabled}>
+                                  {"<"}
+                                </S.BtnMove>)}
+                             renderCenterRightControls={({ nextDisabled, nextSlide }) => (
+                                <S.BtnMove onClick={nextSlide} disabled={nextDisabled}>
+                                  {">"}
+                                </S.BtnMove>
+                              )}
+                              
+                            >
                                 <S.ImgLap src={Bairro1} alt="Jardim lapena"/>
                                 <S.ImgLap src={Bairro2} alt=""/>
                                 <S.ImgLap src={Bairro3} alt=""/>

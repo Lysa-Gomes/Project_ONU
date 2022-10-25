@@ -1,7 +1,23 @@
 import styled from "styled-components";
+import Backg from "../../Imagens/favela1.jpeg"
 
 export const Container= styled.section`
 width:100%;
+`
+export const All= styled.section`
+width: 100%;
+display: flex;
+padding-top: 4%;
+justify-content:center;
+background-image: url(${Backg});
+background-size: 30%;
+`
+export const Contain= styled.section`
+width: 90%;
+background-color: white;
+padding-bottom: 5%;
+margin-bottom: 6%;
+box-shadow: black 0.1vw 0vw 1vw 0.4vw;
 `
 export const Box= styled.div`
 width:100%;
@@ -26,6 +42,9 @@ export const Imagem= styled.img`
 width:15%;
 border-radius:1vw ;
 margin: 2% 2% 0 0;
+ :hover {
+    transform: scale(1.1);
+ }
 `
 export const BoxP= styled.div`
 width:100%;
@@ -49,4 +68,13 @@ p{
     font-size: 1.2vw;
     padding: 4%;
 }
+`
+export const ContFav= styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+`
+export const Fav= styled.img`
+width: 60%;
+margin-top: 5%;
 `
